@@ -33,8 +33,8 @@ classifica_imc(imc) ## Chama a funcao para classificar o IMC
 # Pergunta se o usuário deseja fazer outro cálculo de IMC
 decisao = input("Deseja fazer outro cálculo de IMC? (s/n): ")
 
-# O loop continua até que o usuário digite 'n'
-while decisao.lower() == 's': ## coloca o input da decisao em minusculo e verifica se é `s`, se for, fica no loop
+# O loop continua até que o usuário digite `n`
+while decisao.lower() == 's': ## Coloca o `input` da decisao em minusculo e verifica se é `s`, se for, fica no loop
     nome = input("Digite seu nome: ")
     peso = float(input("Digite seu peso em kg: "))
     altura = float(input("Digite sua altura em metros: "))
