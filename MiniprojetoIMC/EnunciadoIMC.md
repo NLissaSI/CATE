@@ -8,7 +8,6 @@ Crie um algoritmo que receba o nome do usuário e o seu peso em quilogramas (kg)
 | 30,0 a 34,9 | Obesidade grau I |
 | 35,0 a 39,9 | Obesidade grau II |
 | A partir de 40,0 | Obesidade grau III |
-| --- | --- |
 
 Considere o cálculo do IMC: `IMC = peso / (altura x altura)`
 
